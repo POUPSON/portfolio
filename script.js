@@ -285,6 +285,8 @@ cvButtons.forEach(button => {
     if (button.textContent.includes('CV')) {
         button.addEventListener('click', function() {
             alert('📄 Le téléchargement du CV va démarrer.\n\nPour configurer cette fonctionnalité, ajoutez votre CV en PDF dans le dossier et mettez à jour le lien.');
+                     window.open('./FONKAM Christian_CV.pdf', '_blank');
+
             // Décommenter et modifier avec le bon chemin vers votre CV
             // window.open('path/to/FONKAM_Christian_CV.pdf', '_blank');
         });
