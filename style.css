@@ -84,6 +84,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .hero-content {
@@ -146,6 +147,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .btn-primary:hover {
@@ -166,6 +168,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 
 .btn-secondary:hover {
@@ -206,6 +209,7 @@ section {
     display: flex;
     align-items: flex-start;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 .about-text {
@@ -549,10 +553,6 @@ section {
     gap: 1.5rem;
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -596,12 +596,6 @@ section {
     color: #00d9ff;
 }
 
-.project-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .project-list li {
     background: #2c3e50;
     padding: 12px;
@@ -639,12 +633,15 @@ section {
     color: white;
     padding: 2rem 0;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .social-links {
