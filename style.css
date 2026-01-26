@@ -357,3 +357,45 @@ footer {
 .language-level {
     font-size: 1.2em;
 }
+/* Compétences */
+.competences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.comp-category {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.comp-category h3 {
+    color: #2c3e50;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.comp-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comp-category li {
+    padding: 8px 0;
+    color: #555;
+    position: relative;
+    padding-left: 20px;
+}
+
+.comp-category li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #3498db;
+    font-weight: bold;
+}
