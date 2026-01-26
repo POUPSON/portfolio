@@ -58,7 +58,7 @@ nav a:hover {
 /* Hero */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: black;
     padding: 80px 20px;
     text-align: center;
 }
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .hero-links a {
-    background: black;
+    background: white;
     color: #667eea;
     padding: 10px 25px;
     border-radius: 5px;
