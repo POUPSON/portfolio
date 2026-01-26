@@ -313,3 +313,47 @@ footer {
         flex-direction: column;
     }
 }
+/* Langues */
+.languages-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid #ecf0f1;
+}
+
+.languages-section h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.languages-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.language-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.language-card h4 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.language-card p {
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.language-level {
+    font-size: 1.2em;
+}
